@@ -1,4 +1,4 @@
-# Redmine Reapeat
+# Redmine Repeat
 
 ## Summary
 

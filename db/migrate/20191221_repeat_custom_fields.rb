@@ -1,4 +1,4 @@
-class ReapeatCustomFields < ActiveRecord::Migration[4.2]
+class ReapeatCustomFields < Rails.version < '5.0' ? ActiveRecord::Migration : ActiveRecord::Migration[4.2]
     # method called when installing the plugin
     def self.up
       if IssueCustomField.find_by_name('repeat').nil?

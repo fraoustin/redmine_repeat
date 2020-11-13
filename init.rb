@@ -32,7 +32,7 @@ Redmine::Plugin.register :redmine_repeat do
   name 'Redmine Repeat'
   author 'Frederic Aoustin'
   description 'The redmine_repeat repeat issue after closure.'
-  version '0.1.1'
+  version '0.1.2'
   url 'https://github.com/fraoustin/redmine_repeat'
   author_url 'https://github.com/fraoustin'
   requires_redmine :version_or_higher => '2.3.0'

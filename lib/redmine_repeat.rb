@@ -14,7 +14,7 @@ def repeat_issue(context)
   end
 end
 
-module RepeatIssue
+module RedmineRepeat
   class Hooks < Redmine::Hook::ViewListener
     def controller_issues_new_after_save(context)
       if context[:issue] and context[:issue].status.is_closed? then
